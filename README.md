@@ -1,1 +1,1 @@
-# word-search-db
+Dictionary
