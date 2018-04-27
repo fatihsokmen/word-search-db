@@ -5,7 +5,7 @@ This app downloads a dictionary file and provides suggestions based on input seq
 
 DICTIONARY
 ----------
-We use a dictionary file containing 235886 words. File is hosted at https://raw.githubusercontent.com/fatihsokmen/word-search-db/master/words.txt
+We use a dictionary file containing 235886 words and 2.5 MB in file size. File is hosted at https://raw.githubusercontent.com/fatihsokmen/word-search-db/master/words.txt
 
 In real world app, we have to use E-Tag mechanism to avoid downloading file evertime. If content is not changed, web server should return HTTP 304 (NOT MODIFIED) otherwise we are supposed to get the file content with HTTP 200. For this example app, we download everytime when the app is launched.
 
@@ -28,4 +28,3 @@ TOOLS
 - Retrofit and OkHttp: For network operations
 - ButterKnife: View binding
 - Android support and Design libraries
-
